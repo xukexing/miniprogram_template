@@ -1,0 +1,21 @@
+@import "/styles/reset.wxss";
+
+/**app.wxss**/
+
+/* 空列表 */
+.emptyHint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+.emptyHint>image {
+  width: 140rpx;
+  height: 140rpx;
+}
+.emptyHint>.hintTxt {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 42rpx;
+}

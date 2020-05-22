@@ -1,0 +1,14 @@
+var filters = {
+  //取整
+  parseInt: function (value) {
+    return parseInt(value)
+  },
+  //保留两位小数
+  float: function (value) {
+    return value.toFixed(2)
+  },
+}
+module.exports = {
+  parseInt: filters.parseInt,
+  float: filters.float
+}

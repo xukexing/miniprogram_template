@@ -1,0 +1,31 @@
+/* components/authorizationLogin/authorization.wxss */
+.containerAuthorization{
+  padding: 0 60rpx;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+.winAuthorization{
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 60rpx 40rpx;
+  box-sizing: border-box;
+}
+.name{
+  font-size: 36rpx;
+  color: #333;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.type{
+  margin: 30rpx 0 20rpx;
+}
+.bottom{
+  background: #08C549;
+  color: #fff;
+  margin: 60rpx 80rpx 20rpx;
+}

@@ -1,0 +1,19 @@
+<!--components/authorizationLogin/authorization.wxml-->
+<!--授权弹窗-->
+<view  class="containerAuthorization">
+  <view class='winAuthorization'>
+    <view class='header'>
+      <!-- <image src='{{root}}img/websiteImg/cMN147114898Ro.jpg'></image> -->
+      <view class="name">中凯检测</view>
+    </view>
+    <view class='content'>
+      <view class="type">申请获取以下权限</view>
+      <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+    <button class='bottom' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+      同意授权
+    </button>
+  </view>
+</view>
+
+<!--授权弹窗-->
