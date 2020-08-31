@@ -1,0 +1,28 @@
+<!--componen/dateRange/dateRange.wxml-->
+<view class="dateRangeShade" >
+  <view class="dateRange">
+    <view class="dateRange_main">
+      <view class="topDate">
+        <input catchtap="selectInput" data-index="0" class="input {{active==0?'activeBorder':''}}" value="{{startTime}}" disabled placeholder="请选择"></input>
+        <text>至</text>
+        <input catchtap="selectInput" data-index="1"  class="input {{active==1?'activeBorder':''}}" value="{{endTime}}" disabled placeholder="请选择"></input>
+      </view>
+      <picker-view class="picker-view" indicator-style="height: 44px;" style="width: 100%; height: 220px;" value="{{value}}" bindchange="bindChange">
+        <picker-view-column>
+          <view class="picker-view-item"  wx:for="{{years}}" wx:key="index" style="line-height: 44px">{{item}}年</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view class="picker-view-item" wx:for="{{months}}" wx:key="index"  style="line-height: 44px">{{item}}月</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view class="picker-view-item" wx:for="{{days}}" wx:key="index"  style="line-height: 44px">{{item}}日</view>
+        </picker-view-column>
+      </picker-view>
+      <view class="footHandle">
+        <view catchtap="clearHandle" class="btn emptyBtn">清空筛选</view>
+        <view catchtap="sureBtnHandle" class="btn  sureBtn">确定</view>
+      </view>
+    </view>
+    <image catchtap="hidePicker" class="cancelIcon" mode="aspectFill" src="./icon_order_close.svg"></image>
+  </view>
+</view>

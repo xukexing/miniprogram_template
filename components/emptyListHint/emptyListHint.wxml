@@ -1,0 +1,5 @@
+<!--components/emptyListHint/emptyListHint.wxml-->
+<view class="emptyListHint">
+  <image class="emptyListHintIco" mode="aspectFill" src="./empty.png"></image>
+  <view class="emptyListHintText">{{hint}}</view>
+</view>

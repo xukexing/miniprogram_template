@@ -1,0 +1,19 @@
+/* components/emptyListHint/emptyListHint.wxss */
+.emptyListHint{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600rpx;
+}
+.emptyListHintIco{
+  width:308rpx;
+  height:202rpx;
+}
+.emptyListHintText{
+  margin-top: 36rpx;
+  font-size: 30rpx;
+  color: #999
+}

@@ -1,0 +1,14 @@
+<!--components/search/search.wxml-->
+<view class="search">
+  <view class="left">
+    <image mode="aspectFit" class="searchIcon" src="./searchIcon.svg"></image>
+    <input  bindinput="searchInput" 
+            focus="{{true}}"
+            placeholder-class="searchInputPlaceholder" 
+            value="{{selfVal}}" 
+            class="searchInput" 
+            placeholder="{{placeholder}}"></input>
+    <image wx:if="{{selfVal!=''}}" catchtap="clearHandle" class="searchClear" src="./searchClear.svg"></image>
+  </view>
+  <view catchtap="searchHandle" class="right">搜索</view>
+</view>

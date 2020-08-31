@@ -1,7 +1,13 @@
 @import "/styles/reset.wxss";
 
 /**app.wxss**/
-
+page{
+  --txtTheme:#13B45B;
+  --tab-font-size:30rpx;
+  --tab-active-text-color:#13B45B;
+  --font-weight-bold:800;
+  --tab-text-color:#333;
+}
 /* 空列表 */
 .emptyHint {
   display: flex;

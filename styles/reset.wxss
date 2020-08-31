@@ -207,7 +207,7 @@ textarea{
   color: #B3B3B3;
 }
 .txtTheme{
-  color: #6CBB48;
+  color: var(--txtTheme);
 }
 .txtYellow{
   color: #FFB128 !important;
@@ -217,15 +217,15 @@ textarea{
   color: #fff;
 }
 .btnBorderGreen{
-   border:2rpx solid #6CBB48 !important;
-   color: #6CBB48 !important
+   border:2rpx solid var(--txtTheme) !important;
+   color: var(--txtTheme) !important
 }
 .btnBorderYellow{
    border:2rpx solid #FFB128 !important;
    color: #FFB128 !important
 }
 .btnBgGreen{
-   background: #6CBB48 !important;
+   background: var(--txtTheme) !important;
    color: #fff !important
 }
 .fixedBottomBtn{
@@ -234,7 +234,7 @@ textarea{
   bottom: 0;
   width:100%;
   height:100rpx;
-  background:#6CBB48;
+  background:var(--txtTheme);
   font-size: 30rpx;
   color: #FFFEFE;
   display: flex;
@@ -246,7 +246,7 @@ textarea{
 .bottomBtn{
   width:100% !important;
   height:90rpx;
-  background:#6CBB48;
+  background:var(--txtTheme);
   border-radius:6rpx;
   font-size: 30rpx;
   color: #FFFEFE;
@@ -259,10 +259,10 @@ textarea{
 .bottomBorderBtn{
   width:100% !important;
   height:90rpx;
-  border:2rpx solid #6CBB48;
+  border:2rpx solid var(--txtTheme);
   border-radius:45rpx;
   font-size: 30rpx;
-  color: #6CBB48;
+  color: var(--txtTheme);
   background: #fff;
   display: flex;
   align-items: center;
@@ -395,10 +395,10 @@ textarea{
   background: #F8F8F8 !important;
 }
 .van-tabs__line{
-  background-color: #6CBB48 !important;
+  background-color: var(--txtTheme) !important;
 }
 .van-tab--active{
-  color: #6CBB48 !important;
+  color: var(--txtTheme) !important;
   font-weight: bold !important;
 }
 /* 须知同意 */
@@ -410,7 +410,7 @@ textarea{
   align-items: center;
 }
 .agree>.book{
-  color: #6CBB48;
+  color: var(--txtTheme);
 }
 .agree checkbox .wx-checkbox-input{
   width: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
@@ -421,7 +421,7 @@ textarea{
 .agree checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   width: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
   height: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
-  background-color: #6CBB48;
+  background-color: var(--txtTheme);
   color: #fff;
   border-radius: 50%;
   font-size: 32rpx;

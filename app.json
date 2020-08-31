@@ -24,18 +24,6 @@
         "selectedIconPath": "images/icon_home_active.png"
       },
       {
-        "pagePath": "pages/other1/other1",
-        "text": "进度查询",
-        "iconPath": "images/icon_down.png",
-        "selectedIconPath": "images/icon_down_active.png"
-      },
-      {
-        "pagePath": "pages/other2/other2",
-        "text": "报告下载",
-        "iconPath": "images/icon_down.png",
-        "selectedIconPath": "images/icon_down_active.png"
-      },
-      {
         "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "images/icon_mine.png",
